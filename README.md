@@ -68,10 +68,7 @@ If you prefer to run the app without Docker, follow the virtual environment step
 - Price data is fetched from Yahoo Finance via `yfinance` — network failures show an error and prevent prediction.
 - Cached attention files are stored under `data/attention_cache/` to reduce repeated API calls.
 
-## Extending the project
-- Replace or augment the attention signal with Google Trends, Twitter/social streams, or other search APIs.
-- Improve the model by adding features, hyperparameter tuning, or adopting time-series-specific models.
-- Add unit tests and CI to validate data fetching and model outputs.
+
 
 ## License
 This project is provided as-is for educational purposes. Add a license file if you plan to open-source it.
